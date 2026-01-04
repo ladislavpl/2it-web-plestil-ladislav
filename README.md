@@ -7,7 +7,7 @@ Technologie - HTML, CSS, JS
 Knihovny - [AOS (Animate On Scroll)](https://michalsnik.github.io/aos/), [Bootstrap](https://getbootstrap.com/)
 
 ## Návod na spuštění
-Web jde spustit naklonováním tohoto repozitáře a otevřením index.html
+Web jde spustit naklonováním tohoto repozitáře a otevřením index.html nebo přes GitHub Pages na [této webové adrese](https://ladislavpl.github.io/2it-web-plestil-ladislav).
 
 ## Prvky na které jsem hrdý
 Jsem hrdý na to, jak se mění zobrazení stránky podle toho, jestli používám mobil nebo počítač a na jednoduché animace, které web oživují.
