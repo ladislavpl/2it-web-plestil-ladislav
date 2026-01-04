@@ -1,22 +1,42 @@
 <!DOCTYPE html>
 <html lang="cs">
 <head>
+    <!-- Meta tags -->
     <meta charset="UTF-8">
+    <meta name="description" content="Prezentace o Maxovi Verstappenovi">
+    <meta name="keywords" content="Verstappen, F1, Prezentace">
+    <meta name="author" content="Ladislav Jaromír Pleštil">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Import CSS styles (Bootstrap CSS, AOS CSS, custom CSS) -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Import favicon -->
+    <link rel="icon" type="image/png" href="./favicon/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/svg+xml" href="./favicon/favicon.svg">
+    <link rel="shortcut icon" href="./favicon/favicon.ico">
+
     <title>Max Verstappen</title>
 </head>
-<body class="m-0 p-0 text-white" style="background-color: #121F45;">
+<body class="m-0 p-0 text-white">
     <h1 class="text-center m-2 fw-bold" data-aos="zoom-out" data-aos-duration="1250">Max Verstappen</h1>
+
     <div class="container-fluid">
+
         <div class="row justify-content-center align-items-lg-center">
+
+            <!-- Column with the Verstappen portrait -->
             <div class="col-12 col-lg-3 mb-3" data-aos="fade-right" data-aos-duration="1250">
-                <img src="./img/verstappen.webp" alt="Verstappen" class="shadow img-fluid rounded">
+                <img src="./img/verstappen1.webp" alt="Verstappen portrait" id="verstappen-portrait" class="shadow img-fluid rounded" style="cursor: pointer;">
                 <p class="text-center text-break mt-3 lh-1">Max Verstappen v roce 2024</p>
             </div>
+
+            <!-- Column with informations about Verstappen -->
             <div class="col-12 col-lg-6 mb-3">
                 <h2 class="text-center" data-aos="zoom-out" data-aos-duration="1250">Informace</h2>
+
                 <h3 class="text-center" data-aos="zoom-out" data-aos-duration="1250">Základní informace</h3>
                 <ul data-aos="zoom-out" data-aos-duration="1250">
                     <li>Automobilový závodník ve Formuli 1 za tým Red Bull</li>
@@ -24,8 +44,9 @@
                     <li>V roce 2022 získal jako první nizozemský sportovec cenu Laureus (sportovní Oscar) pro nejlepšího sportovce roku 2021</li>
                     <li>Narození - 30. září 1997, Hasselt, Belgie</li>
                     <li>Národnost: Nizozemsko</li>
-                    <li>Rodiče: Jos Verstappen (bývalý jezdec Formule 1), Sophie Kumpen (šampionka v motorkárách)</li>
+                    <li>Rodiče: Jos Verstappen (bývalý jezdec Formule 1), Sophie Kumpen (šampionka v motokárách)</li>
                 </ul>
+
                 <h3 class="text-center" data-aos="zoom-out" data-aos-duration="1250">Formule 1</h3>
                 <ul data-aos="zoom-out" data-aos-duration="1250">
                     <li>Roky: 2015 až dosud</li>
@@ -42,17 +63,22 @@
                     <li>Celkem vyhrál 71 závodů, získal 48 pole position, zajel 36 nejrychlejších kol a 127 krát skončil mezi třemi nejlepšími</li>
                 </ul>
             </div>
+
+            <!-- Column with images of his car -->
             <div class="col-12 col-lg-3 mb-3 d-flex flex-column align-items-start align-items-lg-end">
-                <img src="./img/car1.webp" alt="car1" class="shadow img-fluid rounded mb-2" data-aos="fade-left" data-aos-duration="1250">
-                <img src="./img/car2.webp" alt="car2" class="shadow img-fluid rounded mb-2" data-aos="fade-left" data-aos-duration="1250">
-                <img src="./img/car3.webp" alt="car3" class="shadow img-fluid rounded mb-2" data-aos="fade-left" data-aos-duration="1250">
+                <img src="./img/car1.webp" alt="Car 1" class="shadow img-fluid rounded mb-2" data-aos="fade-left" data-aos-duration="1250">
+                <img src="./img/car2.webp" alt="Car 2" class="shadow img-fluid rounded mb-2" data-aos="fade-left" data-aos-duration="1250">
+                <img src="./img/car3.webp" alt="Car 3" class="shadow img-fluid rounded mb-2" data-aos="fade-left" data-aos-duration="1250">
             </div>
+
         </div>
+        
     </div>
+
+    <!-- Importing scripts (Bootstrap JS, AOS JS, custom JS) -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script>
-        AOS.init();
-    </script>
+    <script src="./script.js"></script>
+    
 </body>
 </html>

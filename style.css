@@ -1,0 +1,6 @@
+/* Setting the background */
+body {
+    background-image: url("./img/background.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
